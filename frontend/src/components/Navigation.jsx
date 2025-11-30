@@ -9,6 +9,10 @@ export default function Navigation() {
             <div className="max-w-7xl mx-auto px-4 flex flex-row items-center justify-center sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                    <div className=" flex items-center space-x-8">
+         <div className="text-[var(--text-secondary)] hover:text-[var(--brand-primary)] transition">
+                           <Link to="/"><CorneredButton>Home</CorneredButton></Link> 
+                       </div>
+               
                        <div className="text-[var(--text-secondary)] hover:text-[var(--brand-primary)] transition">
                            <Link to="/about"><CorneredButton>About</CorneredButton></Link> 
                        </div>
@@ -33,6 +37,9 @@ export default function Navigation() {
             <div className="max-w-7xl mx-auto px-4 flex flex-row items-center justify-center sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                    <div className=" flex items-center space-x-8">
+        <div className="text-[var(--text-secondary)] hover:text-[var(--brand-primary)] transition">
+                           <Link to="/"><button>Home</button></Link> 
+                       </div>
                        <div className="text-[var(--text-secondary)] hover:text-[var(--brand-primary)] transition">
                            <Link to="/about">About</Link> 
                        </div>
