@@ -1,5 +1,6 @@
 import Navigation from '../components/Navigation.jsx'
 import ResumeData from '../static/ResumeData.js'
+import { Download, Mail } from 'lucide-react'
 export default function Resume () {
   return (
   
@@ -13,7 +14,22 @@ export default function Resume () {
         <h1 className="text-3xl md:text-3xl font-bold text-[var(--text-on-primary)]  leading-tight">
           Resume 
         </h1>
+        <div className="flex mt-3 flex-row sm:flex-row gap-4 justify-center items-center scale-75"> 
+             
+              <button className="px-3 py-4 bg-red-800 flex flex-row gap-2  rounded-lg font-semibold transition"> 
+                <Download className="text-white"/> 
+                <span className="text-white">
+                 Save 
+                </span>
+              </button>
 
+              <button className="px-3 py-4 border border-b flex flex-row gap-2  rounded-lg font-semibold transition"> 
+                <Mail className="text-black"/> 
+                <span className="text-black">
+                 Email
+                </span>
+              </button>
+      </div>
 <div className="text-left border border-dashed border-black scale-90">           <div className="max-w-4xl mx-auto p-8 bg-white text-black">
       {/* Header */}
       <header className="border-b-2 border-black pb-4 mb-6">
