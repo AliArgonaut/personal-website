@@ -1,5 +1,5 @@
 import Navigation from '../components/Navigation.jsx'
-
+import ProjectsLoader from '../components/ProjectsLoader.jsx'
 export default function Projects () {
   return (
   
@@ -12,10 +12,9 @@ export default function Projects () {
         
         <h1 className="text-3xl md:text-3xl font-bold text-[var(--text-on-primary)] mb-6 leading-tight">
           Projects 
-          <br />
         </h1>
         
-        
+       <ProjectsLoader /> 
       </div>
     </section>
   
