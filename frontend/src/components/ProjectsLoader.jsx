@@ -2,47 +2,45 @@ import React from 'react';
 
 const projects = [
   {
-    screenshot: '/agents.png',
+    screenshot: '/autodoc-thumbnail.png',
     name: "Autodoc CLI",
     subtitle: "Robust backend pipelines for auto-documenting codebases through advanced parsing, metadata extraction, and multi-agent orchestration.",
-    link: "www.google.com",
-    tech: ["Golang", "Python", "AI Agents"]
+    link: "www.github.com/AliArgonaut/autodoc-cli",
+    tech: ["Golang", "Python", "AI Agents", "API"]
   },
+
+
   {
-    screenshot: '/agents.png',
-    name: "Infera Rag",
-    subtitle: "B2B RAG platform delivering fast, reliable retrieval with optimized embeddings, smart indexing pipelines, and secure tenant-isolated backend.",
-    link: "www.google.com",
-    tech: ["React", "Java", "Eureka", "Stripe", "oAuth2", "Junit"]
+    screenshot: '/framekit-thumbnail.png',
+    name: "Framekit",
+    subtitle: "Utilized Amazon S3 buckets, TypeScript, React, and Nano Banana to generate professional promotional content from unprofessional product photos.",
+    link: "www.github.com/AliArgonaut/autodoc-cli",
+    tech: ["Image Models", "Typescript", "PostgreSQL", "S3"]
   },
+
+
+
   {
-    screenshot: '/agents.png',
+    screenshot: '/infera-thumbnail.png',
+    name: "Infera",
+    subtitle: `Multi-tenant B2B RAGaaS using Java. Vector search pipelines (PGVector),
+        including chunking and embedding logic for efficient retrieval, and integrated OAuth2 authentication to secure
+        client access and protect sensitive enterprise data.`,
+    link: "www.github.com/AliArgonaut/autodoc-cli",
+    tech: ["Spring Boot 3", "Java", "PostgreSQL", "RAG", "OAuth2"]
+  },
+
+
+  
+
+  {
+    screenshot: '/shutter-thumbnail.png',
     name: "Shutter Studio",
-    subtitle: "High-performance backend handling photo capture, editing pipelines, and storage orchestration for Headshot Studio clients.",
-    link: "www.google.com",
-    tech: ["TypeScript", "React", "Image Models", "RESTful"]
+    subtitle: `Utilized similar pipelines found in framekit to generate professional headshots from selfies.`,
+    link: "www.github.com/AliArgonaut/autodoc-cli",
+    tech: ["NestJS", "TypeScript", "PostgreSQL", "S3"]
   },
-  {
-    screenshot: '/agents.png',
-    name: "FrameKit",
-    subtitle: "Robust backend pipelines for auto-documenting codebases through advanced parsing, metadata extraction, and multi-agent orchestration.",
-    link: "www.google.com",
-    tech: ["TypeScript", "React", "Image Models", "RESTful"]
-  },
-  {
-    screenshot: '/agents.png',
-    name: "Unfog",
-    subtitle: "Backend powerhouse for Unfog: AI image upscaling, secure uploads, tokenized access, Stripe billing, OAuth, and microservice orchestration.",
-    link: "www.google.com",
-    tech: ["Gemini", "TypeScript", "React", "Image Models"]
-  },
-  {
-    screenshot: '/agents.png',
-    name: "Sleepy Hollow Inventory System",
-    subtitle: "High-coverage backend for inventory management: secure mobile uploads, Keycloak auth, Eureka discovery, load-balanced services, and Resilience4j fault-tolerance.",
-    link: "www.google.com",
-    tech: ["Angular", "Java", "Eureka", "KeyCloak", "Spring Security", "Junit"]
-  },
+
 ];
 
 export default function ProjectsLoader() {
