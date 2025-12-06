@@ -21,6 +21,17 @@ const projects = [
 
 
   {
+    screenshot: '/httpquest-thumbnail.png',
+    name: "HTTPQuest",
+    subtitle: `Low-level From Scratch TCP/HTTP server combining real time state management, AI narrative generation, JSON entity modeling, and turn-based adventure orchestration.`,
+    link: "www.github.com/AliArgonaut/autodoc-cli",
+    tech: ["Java", "TCP/HTTP", "LLM", "Websockets"]
+  },
+
+
+
+
+  {
     screenshot: '/infera-thumbnail.png',
     name: "Infera",
     subtitle: `Multi-tenant B2B RAGaaS using Java. Vector search pipelines (PGVector),
