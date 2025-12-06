@@ -113,7 +113,7 @@ export default function Resume () {
             <p className="text-xs mb-2">
               <span className="font-semibold">Tech:</span> {project.tech.join(", ")}
             </p>
-            <ul className="list-disc list-inside space-y-1">
+            <ul className=" list-inside space-y-1">
               {project.impact.map((item, j) => (
                 <li key={j} className="text-sm leading-relaxed">{item}</li>
               ))}

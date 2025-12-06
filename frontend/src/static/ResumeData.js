@@ -39,9 +39,7 @@ const Resume = {
       description: "CLI tool that uses AI agents to auto-generate clean, structured documentation.",
       tech: ["Golang", "Python", "Google Agents ADK", "Gemini"],
       impact: [
-        "Engineered a backend CLI pipeline in Golang that automates documentation generation, reducing manual work by over 70%.",
-        "Built a RESTful API layer enabling remote documentation tasks and integration into existing CI pipelines.",
-        "Designed modular agent workflows in Python to process large codebases consistently and reliably."
+        "Engineered a Golang-based backend CLI pipeline that automates documentation generation (cutting manual work by 70%), built a RESTful API layer for remote generation, designed modular Python agent workflows for consistent large-codebase processing, and implemented hash sets for fast data retrieval.",
       ],
       link: "https://github.com/AliArgonaut/Auto-Doc_Release"
     },
