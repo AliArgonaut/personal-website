@@ -2,6 +2,9 @@
 A modern, responsive personal website built with **React**, featuring my projects, blog posts, resume, and information about me.  
 Hosted on **GitHub Pages**.
 
+## Live Demo
+**https://aliargonaut.github.io/personal-website/about**
+
 ---
 
 ## Table of Contents
@@ -38,11 +41,6 @@ This is my personal website and portfolio designed to showcase my work, share bl
 - **React Router**  
 - **TailwindCSS** (choose yours)  
 - **GitHub Pages**  
-
----
-
-## Live Demo
- **https://<your-username>.github.io/<repo-name>/**
 
 ---
 
