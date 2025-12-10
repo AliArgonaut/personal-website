@@ -3,7 +3,7 @@ A modern, responsive personal website built with **React**, featuring my project
 Hosted on **GitHub Pages**.
 
 ## Live Demo
-**https://aliargonaut.github.io/personal-website/about**
+**https://aliargonaut.github.io/personal-website**
 
 ---
 
