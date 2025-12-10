@@ -2,7 +2,7 @@ import React from 'react';
 
 const projects = [
   {
-    screenshot: '/autodoc-thumbnail.png',
+    screenshot: 'autodoc-thumbnail.png',
     name: "Autodoc CLI",
     subtitle: "Robust backend pipelines for auto-documenting codebases through advanced parsing, metadata extraction, and multi-agent orchestration.",
     link: "www.github.com/AliArgonaut/autodoc-cli",
@@ -11,7 +11,7 @@ const projects = [
 
 
   {
-    screenshot: '/framekit-thumbnail.png',
+    screenshot: 'framekit-thumbnail.png',
     name: "Framekit",
     subtitle: "Utilized Amazon S3 buckets, TypeScript, React, and Nano Banana to generate professional promotional content from unprofessional product photos.",
     link: "www.github.com/AliArgonaut/autodoc-cli",
@@ -21,7 +21,7 @@ const projects = [
 
 
   {
-    screenshot: '/httpquest-thumbnail.png',
+    screenshot: 'httpquest-thumbnail.png',
     name: "HTTPQuest",
     subtitle: `Low-level From Scratch TCP/HTTP server combining real time state management, AI narrative generation, JSON entity modeling, and turn-based adventure orchestration.`,
     link: "www.github.com/AliArgonaut/autodoc-cli",
@@ -32,7 +32,7 @@ const projects = [
 
 
   {
-    screenshot: '/infera-thumbnail.png',
+    screenshot: 'infera-thumbnail.png',
     name: "Infera",
     subtitle: `Multi-tenant B2B RAGaaS using Java. Vector search pipelines (PGVector),
         including chunking and embedding logic for efficient retrieval, and integrated OAuth2 authentication to secure
@@ -45,7 +45,7 @@ const projects = [
   
 
   {
-    screenshot: '/shutter-thumbnail.png',
+    screenshot: 'shutter-thumbnail.png',
     name: "Shutter Studio",
     subtitle: `Utilized similar pipelines found in framekit to generate professional headshots from selfies.`,
     link: "www.github.com/AliArgonaut/autodoc-cli",
