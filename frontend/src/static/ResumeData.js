@@ -1,6 +1,6 @@
 const Resume = {
   name: "Lloyd Aleister Bonds",
-  title: "Full Stack Developer w/ Backend Concentration",
+  title: "Backend Software Engineer",
   summary:
     "Sophomore Software Engineering student focused on backend development, microservices architecture, and strategic implementation of AI systems.",
 
@@ -39,7 +39,7 @@ const Resume = {
       description: "CLI tool that uses AI agents to auto-generate clean, structured documentation.",
       tech: ["Golang", "Python", "Google Agents ADK", "Gemini"],
       impact: [
-        "Engineered a Golang-based backend CLI pipeline that automates documentation generation (cutting manual work by 70%), built a RESTful API layer for remote generation, designed modular Python agent workflows for consistent large-codebase processing, and implemented hash sets for fast data retrieval.",
+        "Engineered CLI pipeline that automates documentation generation (cutting manual work by 70%), built a RESTful API layer for remote generation, designed modular Python agent workflows for consistent large-codebase processing, and implemented hash sets for fast data retrieval.",
       ],
       link: "https://github.com/AliArgonaut/Auto-Doc_Release"
     },

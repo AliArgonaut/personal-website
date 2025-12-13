@@ -1,56 +1,66 @@
 import React from 'react';
 
 const projects = [
-  {
-    screenshot: 'autodoc-thumbnail.png',
-    name: "Autodoc CLI",
-    subtitle: "Robust backend pipelines for auto-documenting codebases through advanced parsing, metadata extraction, and multi-agent orchestration.",
-    link: "www.github.com/AliArgonaut/autodoc-cli",
-    tech: ["Golang", "Python", "AI Agents", "API"]
-  },
+    {
+        screenshot: 'autodoc-thumbnail.png',
+        name: "Autodoc CLI",
+        subtitle: "Robust backend pipelines for auto-documenting codebases through advanced parsing, metadata extraction, and multi-agent orchestration.",
+        link: "www.github.com/AliArgonaut/autodoc-cli",
+        tech: ["Golang", "Python", "AI Agents", "API"]
+    },
 
+    {
+        screenshot: 'framekit-thumbnail.png',
+        name: "Framekit",
+        subtitle: "Utilized Amazon S3 buckets, TypeScript, React, and Nano Banana to generate professional promotional content from unprofessional product photos.",
+        link: "www.github.com/AliArgonaut/autodoc-cli",
+        tech: ["Image Models", "Typescript", "PostgreSQL", "S3"]
+    },
 
-  {
-    screenshot: 'framekit-thumbnail.png',
-    name: "Framekit",
-    subtitle: "Utilized Amazon S3 buckets, TypeScript, React, and Nano Banana to generate professional promotional content from unprofessional product photos.",
-    link: "www.github.com/AliArgonaut/autodoc-cli",
-    tech: ["Image Models", "Typescript", "PostgreSQL", "S3"]
-  },
+    {
+        screenshot: 'httpquest-thumbnail.png',
+        name: "HTTPQuest",
+        subtitle: `Low-level From Scratch TCP/HTTP server combining real time state management, AI narrative generation, JSON entity modeling, and turn-based adventure orchestration.`,
+        link: "www.github.com/AliArgonaut/autodoc-cli",
+        tech: ["Java", "TCP/HTTP", "LLM", "Websockets"]
+    },
 
+    {
+        "screenshot": "jmarch.png",
+        "name": "E-Commerce Microservices Platform",
+        "subtitle": "Microservices architecture with Spring Cloud Gateway, Eureka service discovery, Keycloak OAuth2 authentication, aggregated Swagger documentation, and Resilience4j fault tolerance patterns for distributed systems.",
+        "link": "www.github.com/AliArgonaut/java-microservices-demo",
+        "tech": [
+            "Java",
+            "Spring Boot",
+            "Spring Cloud Gateway",
+            "test-containers",
+            "Eureka",
+            "Keycloak",
+            "OAuth2/JWT",
+            "Resilience4j",
+            "Docker",
+            "OpenAPI/Swagger"
+        ]
+    },
 
+    {
+        screenshot: 'infera-thumbnail.png',
+        name: "Infera",
+        subtitle: `Multi-tenant B2B RAGaaS using Java. Vector search pipelines (PGVector),
+            including chunking and embedding logic for efficient retrieval, and integrated OAuth2 authentication to secure
+            client access and protect sensitive enterprise data.`,
+        link: "www.github.com/AliArgonaut/autodoc-cli",
+        tech: ["Spring Boot 3", "Java", "PostgreSQL", "RAG", "OAuth2"]
+    },
 
-  {
-    screenshot: 'httpquest-thumbnail.png',
-    name: "HTTPQuest",
-    subtitle: `Low-level From Scratch TCP/HTTP server combining real time state management, AI narrative generation, JSON entity modeling, and turn-based adventure orchestration.`,
-    link: "www.github.com/AliArgonaut/autodoc-cli",
-    tech: ["Java", "TCP/HTTP", "LLM", "Websockets"]
-  },
-
-
-
-
-  {
-    screenshot: 'infera-thumbnail.png',
-    name: "Infera",
-    subtitle: `Multi-tenant B2B RAGaaS using Java. Vector search pipelines (PGVector),
-        including chunking and embedding logic for efficient retrieval, and integrated OAuth2 authentication to secure
-        client access and protect sensitive enterprise data.`,
-    link: "www.github.com/AliArgonaut/autodoc-cli",
-    tech: ["Spring Boot 3", "Java", "PostgreSQL", "RAG", "OAuth2"]
-  },
-
-
-  
-
-  {
-    screenshot: 'shutter-thumbnail.png',
-    name: "Shutter Studio",
-    subtitle: `Utilized similar pipelines found in framekit to generate professional headshots from selfies.`,
-    link: "www.github.com/AliArgonaut/autodoc-cli",
-    tech: ["NestJS", "TypeScript", "PostgreSQL", "S3"]
-  },
+    {
+        screenshot: 'shutter-thumbnail.png',
+        name: "Shutter Studio",
+        subtitle: `Utilized similar pipelines found in framekit to generate professional headshots from selfies.`,
+        link: "www.github.com/AliArgonaut/autodoc-cli",
+        tech: ["NestJS", "TypeScript", "PostgreSQL", "S3"]
+    },
 
 ];
 
